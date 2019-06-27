@@ -1,0 +1,9 @@
+categories:
+- Database
+- MySQL
+questions:
+
+- variable: service.nodePort
+  min: 30000
+  max: 32767
+  
