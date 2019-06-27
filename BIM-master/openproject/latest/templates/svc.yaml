@@ -9,6 +9,6 @@ spec:
   ports:
   - name: openproject
     targetPort: openproject
-    port: {{ .Values.service.port }}
+    port: 30000
   selector:
     app: openproject
