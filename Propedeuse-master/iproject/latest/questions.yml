@@ -1,0 +1,11 @@
+categories:
+- Webserver
+- Database
+questions:
+
+- variable: repository
+  required: true
+  default: ""
+  description: "Geef de locatie van de Git Repository op."
+  type: string
+  label: Git Repository

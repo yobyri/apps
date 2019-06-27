@@ -1,0 +1,15 @@
+name: iproject-ontwikkelomgeving
+version: 1.0.0
+appVersion: 5.7.14
+description: Een complete webserver voor het gebruik tijdens het I-Project. De webserver beschikt over een MySQL database server, PHPMyAdmin, PHP en een Apache webserver. De applicatie kopieert de applicatiedata uit een opgegeven Git Repository. 
+keywords:
+- iproject
+- propedeuse
+- database
+- webserver
+home: https://www.han.nl
+icon: https://www.dream-it.cloud/img/icon-iproject.png
+maintainers:
+- name: Dream-IT
+  email: info@dream-it.cloud
+

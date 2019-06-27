@@ -1,0 +1,20 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: iproject
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: iproject
+    spec:
+      containers:
+      - name: iproject
+        image: ybonga/githubapache:latest
+        env:
+          - name: REPO_URL
+            value: {{ .Values.repository }}
+        ports:
+        - name: iproject
+          containerPort: 80
