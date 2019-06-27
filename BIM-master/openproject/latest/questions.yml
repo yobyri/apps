@@ -3,7 +3,7 @@ categories:
 - MySQL
 questions:
 
-- variable: service.nodePort
+- variable: 
   min: 30000
   max: 32767
   
