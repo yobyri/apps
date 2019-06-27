@@ -1,0 +1,12 @@
+categories:
+- Database
+- MySQL
+questions:
+
+- variable: service.nodePort
+  default: ""
+  description: "Om jouw specifieke applicatie te bereiken is een uniek poortnummer nodig. Kies een poortnummer tussen 30000-32767."
+  type: int
+  min: 30000
+  max: 32767
+  label: Poortnummer
